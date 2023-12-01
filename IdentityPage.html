@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>LineCRM</title>
+</head>
+
+<body>
+    <header class="flex w-[390px] items-center gap-[10px] px-[16px] py-[10px] mt-[40px] relative ">
+        <a class="inline-flex items-center gap-[1rem] relative cursor-pointer">
+            <img class="relative flex-[0_0_auto]" alt="Image" src='Icons/back.svg' />
+            <span class="relative w-fit font-normal text-Base text-[--Color-Main-Base]">
+                Back
+            </span>
+        </a>
+    </header>
+    <section class="w-full h-full">
+        <div class='h-full'>
+            <form class='w-full h-full flex flex-col justify-around items-center gap-4' action=''>
+                <div class='flex flex-col justify-center items-center'>
+                    <div class='flex flex-col gap-4'>
+                        <div class='flex  flex-col gap-4'>
+                            <img src='./Icons/iden-card.svg' alt="Card" class='w-[52px]' />
+                            <span class='Font-Title text-[--Color-Main-Base]'>เลขบัตรประชาชน</span>
+                        </div>
+                        <input type="text" placeholder='X-XXXX-XXXX-XXXXX'
+                            class='w-[320px] h-[55px] rounded-[15px]  border-2 bg-[--Color-WF-Sec] hover:border-[--Color-Main-Base] p-4' />
+                    </div>
+
+                    <div class='flex flex-col gap-4 mt-7'>
+                        <div class='gap-4'>
+                            <img src='./Icons/iden-phone.svg' alt="Phone" class='w-[40px]' />
+                            <span class='Font-Title text-[--Color-Main-Base]'>หมายเลขโทรศัพท์</span>
+                        </div>
+                        <input type="text" placeholder='XXX-XXX-XXXX'
+                            class='w-[320px] h-[55px] rounded-[15px]  border-2 bg-[--Color-WF-Sec] hover:border-[--Color-Main-Base] p-4' />
+                    </div>
+                </div>
+
+                <div class='flex flex-col justify-center items-center'>
+                    <input type="submit" value='ยืนยันตัวตน'
+                        class='w-[320px] h-[55px] rounded-[15px] bg-[--Color-Main-Base] text-[--Color-WF-Base] cursor-pointer ' />
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>

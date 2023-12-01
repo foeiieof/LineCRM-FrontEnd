@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  font-family: 'Prompt', sans-serif;
+  --Color-BG-Main: #FAFEFE;
+  --Color-BG-Second: #FFFFFF;
+  /* Color Main */
+  --Color-Main-Base : #2BB7BF ;
+  --Color-Main-10 : #D5F1F2 ;
+  --Color-Main-20 : #B8E7EA ;
+  --Color-Main-30 : #95DBDF ;
+  --Color-Main-40 : #72CFD4 ;
+  --Color-Main-50 : #4EC3CA ;
+  --Color-Main-60 : #24989F ;
+  --Color-Main-70 : #1D7A7F ;
+  --Color-Main-80 : #155B5F ;
+  --Color-Main-90 : #0E3D40 ;
+  --Color-Main-100 : #092526 ;
+
+  /*Color Second */
+  --Color-Second-Base :#7669DF;
+  --Color-Second-10 :#E4E1F9;
+  --Color-Second-20 :#D1CDF4;
+  --Color-Second-30 :#BAB4EF;
+  --Color-Second-40 :#A49BEA;
+  --Color-Second-50 :#8D82E4;
+  --Color-Second-60 :#6257BA;
+  --Color-Second-70 :#4F4695;
+  --Color-Second-80 :#3B346F;
+  --Color-Second-90 :#27234A;
+  --Color-Second-100 :#18152D;
+
+  /* Color Gradient */
+  --Color-gradient-0:#27A9BA;
+  --Color-gradient-1:#2CC9C5;
+
+
+  /* Color Gray */
+  --Color-WF-Base: #f5f5f5;
+  --Color-WF-Sec: #F0F0F0;
+  --Color-WF-10: #DCDFDF;
+  --Color-WF-20: #C5C9C9;
+  --Color-WF-30: #A7AEAE;
+  --Color-WF-40: #8A9393;
+  --Color-WF-50: #6D7878;
+  --Color-WF-100: #505D5D;
+
+}
+#root {
+  background-color:var(--Color-WF-Base);
+}
+body{
+  height: 100vh;
+}
+
+/* Font Style */
+.Font-Title {
+  font-weight: 500;
+  font-size: 24px;
+}
+.Font-Title-M {
+  font-weight: 400;
+  font-size: 20px;
+}
+.Font-Title-L {
+  font-weight: 400;
+  font-size: 32px;
+}
+.Font-Text-M{
+  font-weight: 500;
+  font-size: 16px;
+}
+.Font-Text-S {
+  font-weight: 400;
+  font-size: 10px;
+}
+.GradientBG {
+ background: linear-gradient(180deg,rgba(43,183,191,0.75) ,rgba(44,201,197,0.75));
+}
